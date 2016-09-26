@@ -16,8 +16,8 @@ html:
     bestPractices: true
     outline: true
     has:
-      - 'link[href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"]'
       - ['link[href*="grid.css"] + link[href*="main.css"]', 'The `grid.css` file must come before the `main.css` file.']
+      - 'link[href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"]'
       - 'h1'
       - 'h2'
       - 'p'
@@ -71,7 +71,7 @@ css:
     valid: true
     bestPractices: true
     search:
-      - 'https\:\/\/gridifier\.web\-dev\.tools\/\#xs\,4\,0\,0\,0\;s\,4\,25\,0\,0\;m\,4\,38\,1\,1\;l\,4\,60\,1\,1'
+      - ['https://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1', 'The `grid.css` should be generated with Gridifier’s default settings']
 
 screenshots:
   - path: 'index.html'
