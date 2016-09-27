@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-font-weight: 700;
+  font-weight: 700;
 }
 
 figure {
@@ -29,7 +29,6 @@ figure {
 .img-margin {
   padding-top: 1em;
 }
-
 
 .grid {
   margin: 0;
@@ -332,6 +331,7 @@ figure {
 }
 
 @media only screen and (min-width: 60em) {
+
   .copy {
     display: inline-block;
   }
